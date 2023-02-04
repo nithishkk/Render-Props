@@ -4,9 +4,8 @@ import "./style.css";
 export default function Children(props) {
   return (
     <div>
-      
-      <p>Render Props</p>
       {props.render()}
+      {props.section("nithish is learning very fast")}
     </div>
   );
 }
